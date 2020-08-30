@@ -53,7 +53,18 @@ It would initially ask the user for a input and then return a page on it. This p
 
 > update and install this package first
 
-**Windows**
+**Linux**
+```shell
+$ sudo apt-get install python3.8-venv
+$ python3.8 -m venv venv
+```
+
+Move all the files from the cloned folder to this virtual venv
+
+```shell
+
+```
+
 
 ```shell
 $ . bin/activate
@@ -62,12 +73,6 @@ $ export FLASK_APP=server.py
 $ flask run
 ```
 
-**Linux/MacOS**
-
-```shell
-$ brew update
-$ brew install fvcproductions
-```
 
 
 ## Usage
