@@ -56,8 +56,10 @@ It would initially ask the user for a input and then return a page on it. This p
 **Windows**
 
 ```shell
-$ brew update
-$ brew install fvcproductions
+$ . bin/activate
+$ export FLASK_ENV=development
+$ export FLASK_APP=server.py
+$ flask run
 ```
 
 **Linux/MacOS**
