@@ -16,8 +16,8 @@ It would initially ask the user for a input and then return a page on it. This p
 |                                       [Student 1](https://github.com/)                                        |                                       [Student 2](https://github.com/)                                        |                                       [Student 3](https://github.com/)                                        |                                       [Student 4](https://github.com/)                                        |
 | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | 
 |                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-male.png" width = "200" />](https://github.com/)                       |                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-female.png" width = "200" />](https://github.com/)                       |                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-male.png" width = "200" />](https://github.com/)                       |                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-female.png" width = "200" />](https://github.com/)                       |                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-male.png" width = "200" />](https://github.com/)                       |
-|                 [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/)                 |            [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/honda0306)             |           [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/Mister-Corn)            |          [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/NandoTheessen)           |
-| [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/) |
+|                 [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/)                 |            [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/honda0306)             |           [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/marco-create)            |          [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/NandoTheessen)           |
+| [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/marco-ninghetto-a0b983142/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/) |
 
 <br>
 <br>
@@ -85,15 +85,28 @@ $ flask run
 **Windows**
 
 ```PowerShell
-cd path\to\clonedrepo
-$env:FLASK_APP = "server.py"
-flask run
+> pip install virtualenv
+```
+CD into the cloned repository and create virtual environment named 'venv' (can be whatever you want)
+```
+> cd .\cloned\repo
+> virtualenv venv -p C:\Python\Python3.8\python.exe
+```
+Activate the virtual env and run the code
+```
+> .\venv\Scripts\activate
+> $env:FLASK_APP = "server.py"
+> flask run
 ```
 
 
 ## Usage
 
-To be Done
+Once everything is set, the command line should run like following
+
+![Picture](https://user-images.githubusercontent.com/53913990/91655073-5fc24e00-eaae-11ea-856a-05158fb4178a.png)
+
+Just copy the url and paste it into browser and go!
 
 ## Setting Up APIs
 
@@ -131,11 +144,16 @@ To be Done
 
 ### Search Page
 
-To be Done
+Enter the topic you'd like to look for and press ENTER
+
+![Picture](https://user-images.githubusercontent.com/53913990/91655217-55548400-eaaf-11ea-930b-1f966e5ae885.png)
 
 ### Results Page
 
-To be Done
+First half of the page To be added
+
+![Picture](https://user-images.githubusercontent.com/53913990/91655294-cdbb4500-eaaf-11ea-86b8-a430dc5b400a.png)
+
 
 ### ScreenRecording
 
@@ -168,4 +186,8 @@ SOFTWARE.
 
 ## Links And Resourcse
 
-To be Done
+- [Dictionary API](https://dictionaryapi.com/)  
+- [Wikipedia Library](https://pypi.org/project/wikipedia/)  
+- [Wikipedia API](https://pypi.org/project/Wikipedia-API/)  
+- [How to install Youtube API - easy](https://www.youtube.com/watch?v=th5_9woFJmk&t=185s)  
+- [Google News API](https://pypi.org/project/GoogleNews/)
