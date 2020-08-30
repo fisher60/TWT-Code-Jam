@@ -175,4 +175,8 @@ SOFTWARE.
 
 ## Links And Resourcse
 
-To be Done
+[Dictionary API](https://dictionaryapi.com/)
+[Wikipedia Library](https://pypi.org/project/wikipedia/)
+[Wikipedia API](https://pypi.org/project/Wikipedia-API/)
+[How to install Youtube API - easy](https://www.youtube.com/watch?v=th5_9woFJmk&t=185s)
+[Google News API](https://pypi.org/project/GoogleNews/)
