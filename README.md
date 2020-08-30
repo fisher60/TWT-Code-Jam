@@ -98,7 +98,7 @@ To be Done
 ## Setting Up APIs
 
 <details open>
-<summary>Want to ruin the surprise?</summary>
+<summary>Setting up the YouTube APIs!!</summary>
 <br>
 
 - Go to https://developers.google.com/ and log in or create an account, if necessary.
