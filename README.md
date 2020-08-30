@@ -58,13 +58,7 @@ It would initially ask the user for a input and then return a page on it. This p
 $ sudo apt-get install python3.8-venv
 $ python3.8 -m venv venv
 ```
-
 Move all the files from the cloned folder to this virtual venv
-
-```shell
-
-```
-
 
 ```shell
 $ . bin/activate
