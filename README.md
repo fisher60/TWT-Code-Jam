@@ -13,14 +13,12 @@ It would initially ask the user for a input and then return a page on it. This p
 ##  Contributors
 
 
-|                                       [Sachin](https://github.com/Shivansh-007)                                       |                                       [FunkyMonkey](https://github.com/Roshannarma)                                        |                                       [NMarco](https://github.com/marco-create)                                        |                                       [wowzers](https://github.com/tshe777)                                        |
-| :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | 
-|                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-male.png" width = "200" />](https://github.com/Shivansh-007)                       |                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-male.png" width = "200" />](https://github.com/Roshannarma)                         |                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-male.png" width = "200" />](https://github.com/marco-create)                      |                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-male.png" width = "200" />](https://github.com/tshe777)                     |                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-male.png" width = "200" />](https://github.com/Shivansh-007)                        |
-|                 [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/Shivansh-007)               |            [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/Roshannarma)              |           [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/marco-create)           |          [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/tshe777)         |
-| [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/marco-ninghetto-a0b983142/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/) |
 
-<br>
-<br>
+|                                       [Sachin](https://github.com/Shivansh-007)                                        |                                       [FunkyMonkey](https://github.com/Roshannarma)                                        |                                       [NMarco](https://github.com/marco-create)                                       |                                       [wowzers](https://github.com/tshe777)                                        |
+| :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | 
+|                      [<img src="https://user-images.githubusercontent.com/53913990/91661433-5d76e880-eadc-11ea-981f-e7f94d33d823.png" width = "200" />](https://github.com/)                       |                      [<img src="https://user-images.githubusercontent.com/53913990/91661456-87300f80-eadc-11ea-8d2e-1616027c9221.png" width = "200" />](https://github.com/)                       |                      [<img src="https://user-images.githubusercontent.com/53913990/91661484-a2028400-eadc-11ea-8c9a-d143ec5036f8.png" width = "200" />](https://github.com/marco-create)                       |                      [<img src="https://user-images.githubusercontent.com/53913990/91661494-b6468100-eadc-11ea-8fbb-e2c8ca916a79.png" width = "200" />](https://github.com/)                       |
+|                 [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/)                 |            [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/honda0306)             |           [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/marco-create)            |          [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/NandoTheessen)           |
+[ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/)                                                                      |              [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/)                                                                 |               [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/marco-ninghetto-a0b983142/)                                                                |       [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/)                                                                        |
 
 
 ## Table of content
@@ -47,23 +45,23 @@ It would initially ask the user for a input and then return a page on it. This p
 <br>
 
 ```shell
-pip3.8 intsall urllib
-pip3.8 intsall json
-pip3.8 intsall bs4
-pip3.8 intsall requests
-pip3.8 intsall re
-pip3.8 intsall random
-pip3.8 intsall requests
-pip3.8 intsall PIl
-pip3.8 intsall io 
-pip3.8 intsall GoogleNews 
-pip3.8 intsall wikipediaapi
-pip3.8 intsall wikipedia
-pip3.8 intsall webbrowser
-pip3.8 intsall selenium
-pip3.8 intsall googleapiclient
-pip3.8 intsall flask
-pip3.8 intsall time
+pip3.8 install urllib
+pip3.8 install json
+pip3.8 install bs4
+pip3.8 install requests
+pip3.8 install re
+pip3.8 install random
+pip3.8 install requests
+pip3.8 install PIl
+pip3.8 install io 
+pip3.8 install GoogleNews 
+pip3.8 install wikipediaapi
+pip3.8 install wikipedia
+pip3.8 install webbrowser
+pip3.8 install selenium
+pip3.8 install googleapiclient
+pip3.8 install flask
+pip3.8 install time
 ```
 </details>
 
@@ -102,7 +100,7 @@ Activate the virtual env and run the code
 
 ## Usage
 
-Once everything is set, the command line should run like following
+Once everything is set, the command line should run like following (example for Windows)
 
 ![Picture](https://user-images.githubusercontent.com/53913990/91655073-5fc24e00-eaae-11ea-856a-05158fb4178a.png)
 
@@ -140,13 +138,11 @@ Just copy the url and paste it into browser and go!
 
 ## Examples
 
-To be Done
-
 ### Search Page
 
 Enter the topic you'd like to look for and press ENTER
 
-![Picture](https://user-images.githubusercontent.com/53913990/91655217-55548400-eaaf-11ea-930b-1f966e5ae885.png)
+![Picture](https://user-images.githubusercontent.com/53913990/91661136-4f27cd00-eada-11ea-85c9-bf0ded8ca82d.png)
 
 ### Results Page
 
