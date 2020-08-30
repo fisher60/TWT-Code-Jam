@@ -44,23 +44,23 @@ It would initially ask the user for a input and then return a page on it. This p
 ### Setup
 - Make sure you download all the modules listed below:
 ```shell
-pip3.8 intsall urllib
-pip3.8 intsall json
-pip3.8 intsall bs4
-pip3.8 intsall requests
-pip3.8 intsall re
-pip3.8 intsall random
-pip3.8 intsall requests
-pip3.8 intsall PIl
-pip3.8 intsall io 
-pip3.8 intsall GoogleNews 
-pip3.8 intsall wikipediaapi
-pip3.8 intsall wikipedia
-pip3.8 intsall webbrowser
-pip3.8 intsall selenium
-pip3.8 intsall googleapiclient
-pip3.8 intsall flask
-pip3.8 intsall time
+pip3.8 install urllib
+pip3.8 install json
+pip3.8 install bs4
+pip3.8 install requests
+pip3.8 install re
+pip3.8 install random
+pip3.8 install requests
+pip3.8 install PIl
+pip3.8 install io 
+pip3.8 install GoogleNews 
+pip3.8 install wikipediaapi
+pip3.8 install wikipedia
+pip3.8 install webbrowser
+pip3.8 install selenium
+pip3.8 install googleapiclient
+pip3.8 install flask
+pip3.8 install time
 ```
 
 **Linux**
