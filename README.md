@@ -79,7 +79,11 @@ $ flask run
 
 **Windows**
 
-To be Done
+```PowerShell
+cd path\to\clonedrepo
+$env:FLASK_APP = "server.py"
+flask run
+```
 
 
 ## Usage
