@@ -23,7 +23,7 @@ It would initially ask the user for a input and then return a page on it. This p
 <br>
 
 
-## Table of content
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#Usage)

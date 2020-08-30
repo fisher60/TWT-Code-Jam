@@ -14,6 +14,6 @@ def get_images(topic):
     chosen_images = set([random.choice(Images) for x in range(15)])
     images = list(chosen_images)[:3]
     return images
-
+    
 if __name__ == '__main__':
     print(get_images('popcorn'))
