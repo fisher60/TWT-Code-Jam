@@ -26,10 +26,9 @@ It would initially ask the user for a input and then return a page on it. This p
 ## Table of content
 
 - [Installation](#installation)
-    - [Windows](#Windows)
-    - [Linux/Mac](#Linux/Mac)
 - [Usage](#Usage)
-- [Examples](#Examples)
+- [Setting Up APIs](#Setting-Up-APIs)
+- [Examples](#Exampl.es)
     - [Search Page](#Search-Page)
     - [Result](#Results-Page)
     - [Screen Recording](#iScreenRecording)
@@ -54,33 +53,24 @@ It would initially ask the user for a input and then return a page on it. This p
 
 > update and install this package first
 
-```shell
-$ brew update
-$ brew install fvcproductions
-```
-
-
-### Linux/Mac
-
-- All the `code` required to get started
-- Images of what it should look like
-
-### Clone
-
-- Clone this repo to your local machine using `https://github.com/fvcproductions/SOMEREPO`
-
-### Setup
-
-- If you want more syntax highlighting, format your code like this:
-
-> update and install this package first
+**Windows**
 
 ```shell
 $ brew update
 $ brew install fvcproductions
 ```
+
+**Linux/MacOS**
+
+```shell
+$ brew update
+$ brew install fvcproductions
+```
+
 
 ## Usage
+
+## Setting Up APIs
 
 ## Examples
 
