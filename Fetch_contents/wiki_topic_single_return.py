@@ -40,6 +40,5 @@ def wiki_search(main_topic):
     return total_list
 
 if __name__ == "__main__":
-    #if running this file separately, ask the user for the topic
     topic = input("what is your topic?: ")
     print(wiki_search(topic))

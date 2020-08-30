@@ -13,7 +13,7 @@ def youtube_topic(yt_search):
 
 	print('============\nYOUTUBE\n============')
 	
-	PATH = webdriver.Chrome('./chromedriver')	## chrome executable on every OS
+	PATH = "C:\Program Files (x86)\chromedriver.exe"	## chrome executable on Windows
 	options_chrome = Options()
 	options_chrome.add_argument('headless')   ## no UI  
 	#yt_search = input('What are you looking for in YouTube? ')
@@ -55,6 +55,5 @@ def youtube_topic(yt_search):
 	return vids
 
 if __name__ == "__main__":
-	#if running this file separately, ask the user for the topic
     topic = input("what is your topic?: ")
     print(youtube_topic(topic))

@@ -26,6 +26,5 @@ def news_search(main_topic):
         print(type(exception).__name__)
 
 if __name__ == "__main__":
-    #if running this file separately, ask the user for the topic
     topic = input("what is your topic?: ")
     print(news_search(topic))

@@ -24,6 +24,5 @@ def yt_searchtopic(topic, key=api_key, build_yt=youtube):
 	return vids_urls
 
 if __name__ == '__main__':
-	#if running this file separately, ask the user for the topic
 	topic = input('>> Insert topic: ')
 	print(yt_searchtopic(topic))
