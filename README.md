@@ -78,7 +78,7 @@ $ brew install fvcproductions
 - Fill in whatever Project Name you want.
 ![Picture](http://www.slickremix.com/wp-content/uploads/2015/04/Screen-Shot-2016-08-06-at-4.14.40-PM.png)
 - Then click GoogleAPIs link in the top left corner and then click the link option called “YouTube Data API v3” It’s under YouTube API’s. You can see it below:
-![Picture](https://www.google.com/url?sa=i&url=https%3A%2F%2Fplugins360.com%2Fall-in-one-video-gallery%2Fhow-to-get-youtube-api-key%2F&psig=AOvVaw0Pqbn403CZY0DW7MQi-NgC&ust=1598845295747000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJixk4aBwusCFQAAAAAdAAAAABAD)
+![Picture](https://plugins360.com/wp-content/uploads/2018/11/youtube-data-api-v3-box.png)
 - Now click on the “ENABLE” button.
 - Next click on the blue ‘Go to Credentials’ button to the right.
 ![Picture](http://www.slickremix.com/wp-content/uploads/2015/04/Screen-Shot-2016-08-06-at-4.17.34-PM.png)
