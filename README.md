@@ -42,7 +42,11 @@ It would initially ask the user for a input and then return a page on it. This p
 - Clone this repo to your local machine using `https://github.com/Shivansh-007/TWT-Code-Jam`
 
 ### Setup
-- Make sure you download all the modules listed below:
+- 
+<details open>
+<summary>Want to ruin the surprise?</summary>
+<br>
+
 ```shell
 pip3.8 intsall urllib
 pip3.8 intsall json
@@ -62,6 +66,8 @@ pip3.8 intsall googleapiclient
 pip3.8 intsall flask
 pip3.8 intsall time
 ```
+</details>
+
 
 **Linux**
 ```shell
@@ -92,6 +98,10 @@ To be Done
 
 ## Setting Up APIs
 
+<details open>
+<summary>Want to ruin the surprise?</summary>
+<br>
+
 - Go to https://developers.google.com/ and log in or create an account, if necessary.
 - After logging in go to this link https://console.developers.google.com/project and click on the blue CREATE PROJECT button as depicted in the photo below. Wait a moment as google prepares your project.
 
@@ -113,6 +123,8 @@ To be Done
 
 ![Picture](http://www.slickremix.com/wp-content/uploads/2015/04/Screen-Shot-2016-08-06-at-4.21.38-PM.png)
 - Paste the API Key in the Fetch_Contents/youtube_singleReturn.py file
+
+</details>
 
 ## Examples
 
