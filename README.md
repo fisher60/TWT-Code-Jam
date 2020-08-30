@@ -37,21 +37,14 @@ It would initially ask the user for a input and then return a page on it. This p
 
 ## Installation
 
-### Windows
-
-
-- All the `code` required to get started
-- Images of what it should look like
-
 ### Clone
 
-- Clone this repo to your local machine using `https://github.com/fvcproductions/SOMEREPO`
+- Clone this repo to your local machine using `https://github.com/Shivansh-007/TWT-Code-Jam`
 
 ### Setup
-
-- If you want more syntax highlighting, format your code like this:
-
-> update and install this package first
+- Make sure you download all the modules listed below:
+```shell
+```
 
 **Linux**
 ```shell
@@ -67,9 +60,14 @@ $ export FLASK_APP=server.py
 $ flask run
 ```
 
+**Windows**
+
+To be Done
 
 
 ## Usage
+
+To be Done
 
 ## Setting Up APIs
 
@@ -97,11 +95,19 @@ $ flask run
 
 ## Examples
 
+To be Done
+
 ### Search Page
+
+To be Done
 
 ### Results Page
 
+To be Done
+
 ### ScreenRecording
+
+To be Done
 
 ## License
 
@@ -130,3 +136,4 @@ SOFTWARE.
 
 ## Links And Resourcse
 
+To be Done
