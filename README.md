@@ -72,6 +72,22 @@ $ brew install fvcproductions
 
 ## Setting Up APIs
 
+- Go to https://developers.google.com/ and log in or create an account, if necessary.
+- After logging in go to this link https://console.developers.google.com/project and click on the blue CREATE PROJECT button as depicted in the photo below. Wait a moment as google prepares your project.
+![Picture](http://www.slickremix.com/wp-content/uploads/2015/04/Screen-Shot-2016-08-06-at-4.12.36-PM.png)
+- Fill in whatever Project Name you want.
+![Picture](http://www.slickremix.com/wp-content/uploads/2015/04/Screen-Shot-2016-08-06-at-4.14.40-PM.png)
+- Then click GoogleAPIs link in the top left corner and then click the link option called “YouTube Data API v3” It’s under YouTube API’s. You can see it below:
+![Picture](https://www.google.com/url?sa=i&url=https%3A%2F%2Fplugins360.com%2Fall-in-one-video-gallery%2Fhow-to-get-youtube-api-key%2F&psig=AOvVaw0Pqbn403CZY0DW7MQi-NgC&ust=1598845295747000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJixk4aBwusCFQAAAAAdAAAAABAD)
+- Now click on the “ENABLE” button.
+- Next click on the blue ‘Go to Credentials’ button to the right.
+![Picture](http://www.slickremix.com/wp-content/uploads/2015/04/Screen-Shot-2016-08-06-at-4.17.34-PM.png)
+- Choose the select option YouTube Data API v3 for the first select option and Web server(e.g. node js. Tomcat) for the second selection. Then choose Public data. Now click the blue button, “What credentials do I need?.”
+![Picture](http://www.slickremix.com/wp-content/uploads/2015/04/Screen-Shot-2016-08-06-at-4.21.07-PM.png)
+- Almost done, wait for google to create your new project and you should see the screen below where you can copy your API Key.
+![Picture](http://www.slickremix.com/wp-content/uploads/2015/04/Screen-Shot-2016-08-06-at-4.21.38-PM.png)
+- Paste the API Key in the Fetch_Contents/youtube_singleReturn.py file
+
 ## Examples
 
 ### Search Page
