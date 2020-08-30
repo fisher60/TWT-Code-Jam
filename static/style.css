@@ -110,3 +110,8 @@ body {
   top: 13px;
   height: 18px;
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

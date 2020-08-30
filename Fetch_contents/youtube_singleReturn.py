@@ -1,6 +1,6 @@
 from googleapiclient.discovery import build
 
-api_key = 'AIzaSyAJDtCkSFNMh8upnaSteSrnXSe52znumq8'
+api_key = #Youtube API
 youtube = build('youtube', 'v3', developerKey= api_key)
 
 def yt_searchtopic(topic, key=api_key, build_yt=youtube):

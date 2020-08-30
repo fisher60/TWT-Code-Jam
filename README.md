@@ -13,10 +13,17 @@ It would initially ask the user for a input and then return a page on it. This p
 ##  Contributors
 
 
+
 |                                       Student 1                                        |                                       Student 2                                        |                                       Student 3                                       |                                       Student 4                                        |
 | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | 
 |                      [<img src="https://user-images.githubusercontent.com/53913990/91661433-5d76e880-eadc-11ea-981f-e7f94d33d823.png" width = "200" />](https://github.com/)                       |                      [<img src="https://user-images.githubusercontent.com/53913990/91661456-87300f80-eadc-11ea-8d2e-1616027c9221.png" width = "200" />](https://github.com/)                       |                      [<img src="https://user-images.githubusercontent.com/53913990/91661484-a2028400-eadc-11ea-8c9a-d143ec5036f8.png" width = "200" />](https://github.com/marco-create)                       |                      [<img src="https://user-images.githubusercontent.com/53913990/91661494-b6468100-eadc-11ea-8fbb-e2c8ca916a79.png" width = "200" />](https://github.com/)                       |
 |                 [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/)                 |            [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/honda0306)             |           [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/marco-create)            |          [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/NandoTheessen)           |
+=======
+|                                       [Sachin](https://github.com/Shivansh-007)                                       |                                       [FunkyMonkey](https://github.com/Roshannarma)                                        |                                       [NMarco](https://github.com/marco-create)                                        |                                       [wowzers](https://github.com/tshe777)                                        |
+| :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | 
+|                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-male.png" width = "200" />](https://github.com/Shivansh-007)                       |                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-male.png" width = "200" />](https://github.com/Roshannarma)                         |                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-male.png" width = "200" />](https://github.com/marco-create)                      |                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-male.png" width = "200" />](https://github.com/tshe777)                     |                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-male.png" width = "200" />](https://github.com/Shivansh-007)                        |
+|                 [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/Shivansh-007)               |            [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/Roshannarma)              |           [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/marco-create)           |          [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/tshe777)         |
+
 | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/marco-ninghetto-a0b983142/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/) |
 
 <br>
@@ -41,8 +48,11 @@ It would initially ask the user for a input and then return a page on it. This p
 
 - Clone this repo to your local machine using `https://github.com/Shivansh-007/TWT-Code-Jam`
 
-### Setup
-- Make sure you download all the modules listed below:
+### Setup 
+<details open>
+<summary>Modules you would need to dowload to run this awesome project !</summary>
+<br>
+
 ```shell
 pip3.8 install urllib
 pip3.8 install json
@@ -62,6 +72,8 @@ pip3.8 install googleapiclient
 pip3.8 install flask
 pip3.8 install time
 ```
+</details>
+
 
 **Linux**
 ```shell
@@ -105,6 +117,10 @@ Just copy the url and paste it into browser and go!
 
 ## Setting Up APIs
 
+<details open>
+<summary>Setting up the YouTube APIs!!</summary>
+<br>
+
 - Go to https://developers.google.com/ and log in or create an account, if necessary.
 - After logging in go to this link https://console.developers.google.com/project and click on the blue CREATE PROJECT button as depicted in the photo below. Wait a moment as google prepares your project.
 
@@ -126,6 +142,8 @@ Just copy the url and paste it into browser and go!
 
 ![Picture](http://www.slickremix.com/wp-content/uploads/2015/04/Screen-Shot-2016-08-06-at-4.21.38-PM.png)
 - Paste the API Key in the Fetch_Contents/youtube_singleReturn.py file
+
+</details>
 
 ## Examples
 
