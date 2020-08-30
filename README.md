@@ -43,7 +43,7 @@ It would initially ask the user for a input and then return a page on it. This p
 
 ### Setup 
 <details open>
-<summary>Want to ruin the surprise?</summary>
+<summary>Modules you would need to dowload to run this awesome project !</summary>
 <br>
 
 ```shell
