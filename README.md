@@ -41,8 +41,7 @@ It would initially ask the user for a input and then return a page on it. This p
 
 - Clone this repo to your local machine using `https://github.com/Shivansh-007/TWT-Code-Jam`
 
-### Setup
-- 
+### Setup 
 <details open>
 <summary>Want to ruin the surprise?</summary>
 <br>
