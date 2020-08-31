@@ -91,6 +91,7 @@ $ flask run
 Following commands always inside the cloned repository folder
 ```
 > py -m venv env
+# Move all the files from the cloned folder to this virtual venv
 > .\env\Scripts\activate
 ```
 Run the app
