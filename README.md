@@ -84,20 +84,19 @@ $ flask run
 **Windows**
 
 ```PowerShell
-> pip install virtualenv
+> cd \cloned\repo
+> py -m pip install --upgrade pip
+> py -m pip install --user virtualenv
 ```
-CD into the cloned repository and create virtual environment named 'venv' (can be whatever you want)
+Following commands always inside the cloned repository folder
 ```
-> cd .\cloned\repo
-> virtualenv venv -p C:\Python\Python3.8\python.exe
+> py -m venv env
+> .\env\Scripts\activate
 ```
-Put all your files in the virtual env and then Activate the virtual env and run the code
+Run the app
 ```
-> git clone https://github.com/Shivansh-007/TWT-Code-Jam.git
-> pip install -r requirements.txt
-> .\venv\Scripts\activate
-> $env:FLASK_APP = "server.py"
-> flask run
+$env:FLASK_APP = server.py
+flask run
 ```
 
 
