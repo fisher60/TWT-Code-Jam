@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -31,7 +31,7 @@
         </header>
 
         <section>
-            <h1>Welcome to WebSearch</h1>
+            <strong><h1>Welcome to WebSearch</h1></strong>
             <p class="subhead">Here are your results, powered by WikipediaAPI, GoogleNewsAPI, and much more.</p>
         </section>
     </div>
@@ -57,33 +57,43 @@
     <main>
         <div class="main-container">
             <a name="DictionarySection">
-                <h2> Dictionary </h2>        
-                  <div class="contentText"><p>{{ definition }}</p></div>
+                <h1> Merriam-Webster Dictionary Defines {{topic}} as: </h2>        
+                  <div class="subhead"><p>{{ definition }}</p></div>
             <a name="FactsSection">
-                <h2> Wikipedia </h2>
-                    <ul1>
-                        {% for fact in wiki %}
-                            <a href={{fact[1]}}>{{fact[:]}}</a>
-                        {% endfor %}
+                <h1> Facts about {{topic}} </h2>
+                    <ol>
+                        {% for thing in wikipedia %}
+                        <!--               <p> {{thing[0]}} </p>   -->
+                                      <p class="subhead"> {{thing[1]}} </p>
+                        <!--               <a href={{thing[1]}}>{{ thing[0] }}</a> -->
+                                    {% endfor %}
+                    </ol>
             <a name="GoogleNewsSection">
-                <h2>  News </h2>
-                    <ul2>
-                        {% for thing in news %}
-                            <a href={{thing[1]}}>{{thing[:]}}</a>
-                        {% endfor %}
+                <h1>  News </h2>
+                    <ol>
+                        {% for thing in google_news %}
+                        <a href={{thing[1]}} class="subhead">{{ thing[0] }}<br><br></a>
+              <!--              <li>{{ thing[0] }}</li>  -->
+                          {% endfor %}
+                    </ol>
             <a name="YoutubeSection">
-                <h2> YouTube </h2>
-                    <ul3>
-                        {% for vid in yt %}
-                            <a href={{vid[1]}}>{{vid[:]}}</a>
-                        {% endfor %}   
+                <h1> YouTube </h2>
+                    <ol>
+                    {% for thing in youtube %}
+                        <iframe width="420" height="315"
+                            src="{{thing[0]}}">
+                        </iframe> 
+                    {% endfor %}
+                    </ol>
+
             <a name="GoogleImagesSection">
-                <h2>  Images </h2>
-                    <!--<ul4>
-                    {% for img in images %}
-                        <a href={{img[1]}}>{{img[:]}}</a>
-                    {% endfor %}   -->         
-     
+                <h1>  Images </h2>
+                    <!--
+                    <ol>
+                            {% for img in images %}
+                            <a href={{img[1]}}>{{img[:]}}</a>
+                        {% endfor %}  
+                    </ol> -->
         </div>
     </main>
 
@@ -92,24 +102,21 @@
 
       <div class="mySlides fade">
         <div class="numbertext">1 / 3</div>
-        	<img src="https://assets.bonappetit.com/photos/5ca534485e96521ff23b382b/master/pass/chocolate-chip-cookie.jpg" style="width: 100%" alt="Image One">
-
-        <!--
-			testing:
-		<img src="images/image0.jpg" style="width:100%" alt="Image One">
-         -->
-
-
+                    <ul>
+                        {% for thing in image1 %}
+                            <img src="{{thing[0]}}" alt="Image One">
+                        {% endfor %}
+                    </ul>
       </div>
 
       <div class="mySlides fade">
         <div class="numbertext">2 / 3</div>
-        <img src="images/image1.jpg" style="width:100%" alt="Image Two">
+        <img src="{{image2}}" style="width:100%" alt="Image Two">
       </div>
 
       <div class="mySlides fade">
         <div class="numbertext">3 / 3</div>
-        <img src="images/image2.jpg" style="width:100%" alt="Image Three">
+        <img src="{{image3}}" style="width:100%" alt="Image Three">
       </div>
       <div>
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -130,7 +137,7 @@
         <div class="footer-container">
             <div class="container">
                 <a href="#">
-                    <img src="images/smalllogo.png" class="logo" alt="logo">
+                    <img src="../static/smalllogo.png" class="logo" alt="logo">
                 </a>
                 <ul class="footer-links">
                     <li>Made for TechwithTim's August CodeJam</li>
