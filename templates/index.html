@@ -57,10 +57,10 @@
     <main>
         <div class="main-container">
             <a name="DictionarySection">
-                <h1> Merriam-Webster Dictionary Defines {{topic}} as: </h2>        
+                <h1> Merriam-Webster Dictionary Definition of: {{topic}}</h2>        
                   <div class="subhead"><p>{{ definition }}</p></div>
             <a name="FactsSection">
-                <h1> Facts about {{topic}} </h2>
+                <h1> {{topic}} Facts </h2>
                     <ol>
                         {% for thing in wikipedia %}
                         <!--               <p> {{thing[0]}} </p>   -->
@@ -88,6 +88,10 @@
 
             <a name="GoogleImagesSection">
                 <h1>  Images </h2>
+                    <p>TESTINGLSKDJFLKSJDL:FJK:SDLFKSDF</p>
+                    {% for thing in images %}
+                    <a href={{thing[1]}}>{{img[:]}}</a>
+                    {% endfor %}               
                     <!--
                     <ol>
                             {% for img in images %}
@@ -97,7 +101,7 @@
         </div>
     </main>
 
-
+<!--
     <div class="slideshow-container">
 
       <div class="mySlides fade">
@@ -132,7 +136,7 @@
         <span class="dot"></span> 
       </div>
 
-
+    -->
     <footer>
         <div class="footer-container">
             <div class="container">
@@ -146,7 +150,7 @@
             </div>
         </div>
     </footer>
-
+<!--
     <script>
     var slideIndex = 1;
     showSlides(slideIndex);
@@ -192,6 +196,6 @@
     });
 
     </script>
-
+-->
 </body>
 </html>
