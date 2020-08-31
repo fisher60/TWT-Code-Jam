@@ -73,6 +73,7 @@ $ python3.8 -m venv venv
 Move all the files from the cloned folder to this virtual venv
 
 ```shell
+$ pip install -r requirements.txt
 $ . bin/activate
 $ export FLASK_ENV=development
 $ export FLASK_APP=server.py
@@ -89,8 +90,9 @@ CD into the cloned repository and create virtual environment named 'venv' (can b
 > cd .\cloned\repo
 > virtualenv venv -p C:\Python\Python3.8\python.exe
 ```
-Activate the virtual env and run the code
+Put all your files in the virtual env and then Activate the virtual env and run the code
 ```
+$ pip install -r requirements.txt
 > .\venv\Scripts\activate
 > $env:FLASK_APP = "server.py"
 > flask run
