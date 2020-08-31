@@ -14,6 +14,7 @@ def page_not_found(e):
 @app.route('/')
 def my_form():
     return render_template('form.html')
+    return render_template('404.html')
 
 @app.route('/', methods=['POST'])
 def my_form_post():
@@ -24,12 +25,14 @@ def my_form_post():
 
 @app.route('/<topic>/<run>')
 def index(topic,run):
-    if run == "True":
-        my_dict = start_fetching(topic)
-        run = "False"
-        return render_template('index.html',**my_dict)
+    try:
+        if run == "True":
+            my_dict = start_fetching(topic)
+            run = "False"
+            return render_template('index.html',**my_dict)
+    except IndexError:
+        return render_template('404.html')
+
 
 if __name__ == '__main__':
    app.run()
-
-#
