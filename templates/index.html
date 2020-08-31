@@ -1,236 +1,200 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC>
+<html lang="en">
 <head>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            text-align: left;
-            font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
-            font-size: 13px;
-            color: #061C37;
-            background: #014D5D url(/static/background.png);
-            background-repeat:repeat-x;
-        }
-        *
-        {
-          margin: 0 auto 0 auto;
-         text-align:left;}
-
-        #page
-        {
-          display: block;
-          height:auto;
-          position: relative;
-          overflow: hidden;
-          width: 670px;
-        }
-
-        .topNaviagationLink
-        {
-            text-align:center;
-            position:relative;
-            margin-top:30px;
-            font-size:16px;
-            margin-left:-10px;
-            width:121px;
-            height: 35px;
-            line-height: 35px;
-            float:left;
-            color:#020a14;
-            font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
-        }
-
-
-        .topNaviagationLink a
-        {
-            text-decoration:blink;
-            color:#020a14;
-        }
-
-        .topNaviagationLink a:hover
-        {
-            text-align:center;
-            border-bottom:none;
-            color:#0C61C9;
-            display: block;
-            width:121px;
-            height: 35px;
-            line-height: 35px;
-            background-image:url(/static/tab.png);
-
-        }
-
-        #mainPicture
-        {
-            width:670px;
-            height:345px;
-            background-color:#FFFFFF;
-        }
-
-        #mainPicture
-        {
-            width:670px;
-            height:345px;
-            background-color:#FFFFFF;
-        }
-
-        #mainPicture .picture
-        {
-            position:relative;
-            width:650px;
-            height:325px;
-            top:10px;
-            background-image:url(/static/anoceanofsky.jpg);
-            background-repeat:no-repeat;
-            margin-left:10px;
-        }
-
-        #headerTitle
-        {
-            position:relative;
-            top:30px;
-            left:40px;
-            font-size:25px;
-            color:#FFFFFF;
-            font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
-        }
-
-        #headerSubtext
-        {
-            position:relative;
-            top:30px;
-            left:50px;
-            font-size:14px;
-            color:#A9C8FA;
-            font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
-        }
-
-        .contentBox
-        {
-            width:670px;
-            height:auto;
-            background-color:#FFFFFF;
-            margin-top:10px;
-        }
-
-        .contentBox .innerBox
-        {
-            position:relative;
-            width:650px;
-            height:auto;
-            top:10px;
-            margin-left:10px;
-            background-image:url(Fetch_contents/images/image1.png);
-            background-repeat:repeat-x;
-            padding-bottom:35px;
-        }
-
-        .contentTitle
-        {
-        font-size:30px;
-        margin-bottom:0px;
-        padding-top:18px;
-        margin-left:15px;
-        margin-top:15px;
-        }
-
-        .contentText
-        {
-            font-size:13px;
-            line-height:24px;
-            margin-left:13px;
-            margin-right:13px;
-        }
-
-        #footer {
-
-            width: 670px;
-            height:16px;
-            background: url(/static/footer.png) no-repeat;
-            text-align:center;
-            font-size:9px;
-            font-family:Arial, Helvetica, sans-serif;
-            color:#386172;
-            padding-top:5px;
-        }
-
-        #footer a
-        {
-            text-decoration:none;
-            font-size:30px;
-            color:#386172;
-        }
-
-        #logo
-        {
-          margin: 0;
-          width = 670px
-          height = 500px
-        }
-
-        html, body {
-          text-align: center;
-        }
-        p {text-align: left;}
-    </style>
-
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>{{topic}}</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{topic}}</title>
+    <link rel="stylesheet" href="../static/main.css">
 </head>
-
 <body>
-    <div id="page">
-        <div class="topNaviagationLink"><a href="index.html"> Home </a></div>
-        <div class="topNaviagationLink"><a href="#Dictionary">Dictionary</a></div>
-        <div class="topNaviagationLink"><a href="#Wikipedia">Wikipedia</a></div>
-        <div class="topNaviagationLink"><a href="#GoogleNews">GoogleNews</a></div>
-        <div class="topNaviagationLink"><a href="#Facts">Facts</a></div>
+    <div class="container">
+        <header>
+            <img src="../static/smalllogo.png" alt="WebSearch" class="logo">
+
+            <nav>
+                <a href="#" class="hide-desktop">
+                    <img src="../static/ham.svg" alt="toggle menu" class="menu" id="menu">
+                </a>
+
+                <ul class="show-desktop hide-mobile" id="nav">
+                    <li id="exit" class="exit-btn hide-desktop">
+                        <img src="../static/exit.svg" alt="exit menu">
+                    </li>
+                    <li><a href="#DictionarySection">dictionary</a></li>
+                    <li><a href="#FactsSection">wikipedia</a></li>
+                    <li><a href="#GoogleNewsSection">news</a></li>
+                    <li><a href="#YoutubeSection">youtube</a></li>  
+                    <li><a href="#GoogleImagesSection">images</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+            <strong><h1>Welcome to WebSearch</h1></strong>
+            <p class="subhead">Here are your results, powered by WikipediaAPI, GoogleNewsAPI, and much more.</p>
+        </section>
     </div>
-        <div id="mainPicture">
-            <div class="picture">
-                <div id="headerTitle">Here are your results!!!</div>
+
+        <!--         
+            <ul1>
+                {% for thing in news %}
+                    <a href={{thing[1]}}>{{thing[:]}}</a>
+                {% endfor %}
+            <ul2>
+                {% for fact in wiki %}
+                    <a href={{fact[1]}}>{{fact[:]}}</a>
+                {% endfor %}
+            <ul3>
+                {% for vid in yt %}
+                    <a href={{vid[1]}}>{{vid[:]}}</a>
+                {% endfor %}   
+            <ul4>
+                {% for img in images %}
+                    <a href={{img[1]}}>{{img[:]}}</a>
+                {% endfor %}
+        -->
+    <main>
+        <div class="main-container">
+            <a name="DictionarySection">
+                <h1> Merriam-Webster Dictionary Definition of: {{topic}}</h2>        
+                  <div class="subhead"><p>{{ definition }}</p></div>
+            <a name="FactsSection">
+                <h1> {{topic}} Facts </h2>
+                    <ol>
+                        {% for thing in wikipedia %}
+                        <!--               <p> {{thing[0]}} </p>   -->
+                                      <p class="subhead"> {{thing[1]}} </p>
+                        <!--               <a href={{thing[1]}}>{{ thing[0] }}</a> -->
+                                    {% endfor %}
+                    </ol>
+            <a name="GoogleNewsSection">
+                <h1>  News </h2>
+                    <ol>
+                        {% for thing in google_news %}
+                        <a href={{thing[1]}} class="subhead">{{ thing[0] }}<br><br></a>
+              <!--              <li>{{ thing[0] }}</li>  -->
+                          {% endfor %}
+                    </ol>
+            <a name="YoutubeSection">
+                <h1> YouTube </h2>
+                    <ol>
+                    {% for thing in youtube %}
+                        <iframe width="420" height="315"
+                            src="{{thing[0]}}">
+                        </iframe> 
+                    {% endfor %}
+                    </ol>
+
+            <a name="GoogleImagesSection">
+                <h1>  Images </h2>
+                    {% for thing in images %}
+                    <a href={{thing[1]}}>{{img[:]}}</a>
+                    {% endfor %}               
+                    <!--
+                    <ol>
+                            {% for img in images %}
+                            <a href={{img[1]}}>{{img[:]}}</a>
+                        {% endfor %}  
+                    </ol> -->
+        </div>
+    </main>
+
+<!--
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+                    <ul>
+                        {% for thing in image1 %}
+                            <img src="{{thing[0]}}" alt="Image One">
+                        {% endfor %}
+                    </ul>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="{{image2}}" style="width:100%" alt="Image Two">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="{{image3}}" style="width:100%" alt="Image Three">
+      </div>
+      <div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+      </div>
+
+    -->
+    <footer>
+        <div class="footer-container">
+            <div class="container">
+                <a href="#">
+                    <img src="../static/smalllogo.png" class="logo" alt="logo">
+                </a>
+                <ul class="footer-links">
+                    <li>Made for TechwithTim's August CodeJam</li>
+                    <li>made by: Sachin, FunkyMonkey, NMarco, wowzers</a></li>
+                </ul>
             </div>
         </div>
-        <div class="contentBox">
-        <div class="innerBox">
-            <div class="contentTitle">Dictionary</div>
-          <div class="contentText"><p>{{definition}}</p></div>
+    </footer>
+<!--
+    <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
 
+    // Next/previous controls
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
 
-        <div class="contentTitle">Wikipedia</div>
-            <div class="contentText"><p>
-            <br>Dolphins are part of the toothed whales. Generally, they are among the smaller whales. Most live in salt water oceans, but some live in rivers – there are oceanic dolphins and river dolphins. Dolphins are from 1.5 metres (4.9 ft) to 4 metres (13 ft) long, but the largest dolphin, the killer whale (or orca), can be up to 8 metres (26 ft) long.</br>
-            <br>All dolphins live in groups called "pods". They are social animals at all stages of their life. They have some remarkable behaviours. A speeding group of dolphin is a sight to see. They "porpoise" in and out of the water at high speed. The function of this is not known for sure. It may be the fastest movement they are capable of.[1] What they eat, almost exclusively, is fish. When they chase fish, the fish go into a "bait ball" to self-protect. In turn, the dolphins attack in a group and eat as many fish as they can.</br>
-            <br>The name 'dolphin' comes from the Ancient Greek δελφίς (delphis) meaning "with a womb", because it was first thought to be a fish with a womb. It is now known to be a mammal, and quite an intelligent mammal. Dolphins breathe air. A dolphin's nose is on top of its head so the dolphin can easily breathe on the surface of the water. The skin of a dolphin has no scales. It is soft and smooth. However, it is very firm, due to how much muscle they have. Dolphins use echolocation to find their food.</br>
-            <br>The skin of a bottlenose dolphin is gray, smooth, and rubbery. They are always social. They can help each other fight off predators. Dolphins have fought off sharks in this way. They can kill large sharks by ramming them over and over again with their snouts and heads. They look after the young, when the mothers need to leave their calves to hunt for food. The young need to breathe more often than the adults, and the food may be in deeper waters.</br>
-            <br>Oceanic dolphins are marine animals living in the sea. They live in all of the oceans.</br>
-            <br>Three of the four species of river dolphins live in fresh water rivers. The La Plata dolphin lives in saltwater estuaries and the ocean. Water pollution and the loss of habitat are a threat to some dolphins, especially those living in rivers and estuaries.</br></p></div>
+    // Thumbnail image controls
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
 
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+    } 
 
-        <div class="contentTitle">GoogleNews</div>
-          <div class="contentText"><p>
-                <ul>
-                {% for thing in google_news %}
-                  <a href={{thing[1]}}>{{ thing[:] }}</a>
-    <!--              <li>{{ thing[0] }}</li>  -->
-                {% endfor %}
-                </ul>
-            </p></div>
-        </div>
+    var menu = document.getElementById('menu');
+    var nav = document.getElementById('nav');
+    var exit = document.getElementById('exit');
 
-        <div class="contentTitle">Facts</div>
-                <ul>
-                {% for thing in wikipedia %}
-    <!--               <p> {{thing[0]}} </p>   -->
-                  <p> >{{thing[1]}} </p>
-    <!--               <a href={{thing[1]}}>{{ thing[0] }}</a> -->
-                {% endfor %}
-                </ul>
-        </div>
+    menu.addEventListener('click', function(e) {
+        nav.classList.toggle('hide-mobile');
+        e.preventDefault();
+    });
 
-    </div>
-        <div id="footer"><a> Have a good day!! </a></div>
+    exit.addEventListener('click', function(e) {
+        nav.classList.add('hide-mobile');
+        e.preventDefault();
+    });
+
+    </script>
+-->
 </body>
 </html>

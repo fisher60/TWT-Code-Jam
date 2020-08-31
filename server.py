@@ -27,7 +27,7 @@ def index(topic,run):
     if run == "True":
         my_dict = start_fetching(topic)
         run = "False"
-        return render_template('testing.html',**my_dict)
+        return render_template('index.html',**my_dict)
 
 if __name__ == '__main__':
    app.run()
