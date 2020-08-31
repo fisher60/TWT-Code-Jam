@@ -89,15 +89,15 @@ $ flask run
 > py -m pip install --user virtualenv
 ```
 Following commands always inside the cloned repository folder
-```
+```PowerShell
 > py -m venv env
 # Move all the files from the cloned folder to this virtual venv
 > .\env\Scripts\activate
 ```
 Run the app
-```
-$env:FLASK_APP = server.py
-flask run
+```PowerShellv
+> env:FLASK_APP = server.py
+> flask run
 ```
 
 
