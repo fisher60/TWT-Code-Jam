@@ -8,7 +8,7 @@
 :star: Star us on GitHub — it helps!
 
 Hi! For this TWT-Code-Jam we had the topic "Generators", therefore [Sachin](https://github.com/Shivansh-007) , [FunkyMonkey](https://github.com/Roshannarma), [NMarco](https://github.com/marco-create), [wowzers](https://github.com/tshe777) decided to do a project on website generator.
-It would initially ask the user for a input and then return a page on it. This page will 
+It would initially ask the user for a input and then return a page on it. This page will be supported with meaning of that word, some fun facts on it, youtube videos, Google News Links and an image slideshow. Have Fun!
 
 ##  Contributors
 
