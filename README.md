@@ -73,6 +73,7 @@ $ python3.8 -m venv venv
 Move all the files from the cloned folder to this virtual venv
 
 ```shell
+$ git clone https://github.com/Shivansh-007/TWT-Code-Jam.git
 $ pip install -r requirements.txt
 $ . bin/activate
 $ export FLASK_ENV=development
@@ -92,7 +93,8 @@ CD into the cloned repository and create virtual environment named 'venv' (can b
 ```
 Put all your files in the virtual env and then Activate the virtual env and run the code
 ```
-$ pip install -r requirements.txt
+> git clone https://github.com/Shivansh-007/TWT-Code-Jam.git
+> pip install -r requirements.txt
 > .\venv\Scripts\activate
 > $env:FLASK_APP = "server.py"
 > flask run
